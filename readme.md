@@ -4,7 +4,6 @@
 
 `mire` 是一个基于互信息的神经网络表征解释框架，旨在分解输入与表征之间的关系为总互信息、决策相关信息和冗余信息。该项目实现了论文《Explaining Representation by Mutual Information》中提出的方法，并通过热图可视化表征内容。支持在 ResNet 等架构上运行，适用于图像分类等任务的解释。
 
-论文地址: [https://arxiv.org/pdf/2103.15114](https://arxiv.org/pdf/2103.15114)
 
 ## 功能
 
@@ -49,8 +48,4 @@ mire/
 - 确保 `imagenet_path` 与数据集路径匹配，默认设置为 `d:/data/imagenet-mini/train`。
 - 训练默认使用 GPU（如可用），否则自动切换至 CPU。
 - 当前代码支持 ResNet50，可通过修改 `main.py` 中的 `local_conv_layers` 和 `global_pool_layer` 适配其他层或模型。
-
-## 参考文献
-
-Lifeng Gu. "Explaining Representation by Mutual Information." arXiv preprint arXiv:2103.15114, 2021.
 
