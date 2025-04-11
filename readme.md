@@ -1,4 +1,4 @@
-# mire
+# 论文《Explaining Representation by Mutual Information》代码实现
 
 **Mutual Information-based Representation Explainer**
 
